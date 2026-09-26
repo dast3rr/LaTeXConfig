@@ -13,7 +13,7 @@ code --install-extension James-Yu.latex-workshop
 code --install-extension orangex4.hsnips
 
 # Create a folder for snippets in the user's home directory. This is where the LaTeX snippets will be stored.
-HSNIPS_DIR="$HOME/.config/Code/User/.hsnips"
+HSNIPS_DIR="$HOME/.config/Code/User/hsnips"
 echo "Creating folder for snippets: $HSNIPS_DIR..."
 mkdir -p "$HSNIPS_DIR"
 
