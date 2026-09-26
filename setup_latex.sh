@@ -10,7 +10,7 @@ sudo apt install -y texlive-full
 # VS Code extensions installation. LaTeX Workshop is a popular extension for LaTeX support in VS Code. HyperSnips is a fork of the original HyperSnips extension, which provides snippet support for LaTeX.
 echo "VS Code extensions installation..."
 code --install-extension James-Yu.latex-workshop
-code --install-extension brian-g-w.hypersnips-math 
+code --install-extension orangex4.hsnips
 
 # Create a folder for snippets in the user's home directory. This is where the LaTeX snippets will be stored.
 HSNIPS_DIR="$HOME/.config/Code/User/.hsnips"
